@@ -73,7 +73,9 @@ header h3 {
 
 .section-news .news .left .top {
   display: flex;
+  align-items: center;
   margin-bottom: 48px;
+  gap: 4px;
 }
 
 .section-news .news .left .top .img-ava {
@@ -87,7 +89,6 @@ header h3 {
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
-  margin: 4px 0 0 4px;
 }
 
 .section-news .news .left .text {
@@ -121,6 +122,8 @@ header h3 {
 
 .section-news .news .left .info-bottom .info {
   display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .section-news .news .left .info-bottom .info .javascript {
@@ -151,7 +154,6 @@ header h3 {
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
-  margin: 8px 0 0 8px;
 }
 
 .section-news .news .left .info-bottom .actions {
