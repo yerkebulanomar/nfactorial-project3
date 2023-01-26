@@ -64,6 +64,7 @@ header h3 {
   justify-content: space-between;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   gap: 7%;
+  margin-bottom: 45px;
 }
 
 .section-news .news .left {
@@ -81,6 +82,7 @@ header h3 {
 .section-news .news .left .top .img-ava {
   width: 24px;
   height: 24px;
+  border-radius: 50%;
 }
 
 .section-news .news .left .top h5 {
@@ -146,6 +148,9 @@ header h3 {
   font-size: 14px;
   line-height: 18px;
   color: #081e34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-news .news .left .info-bottom .info h4 {
@@ -168,9 +173,10 @@ header h3 {
 }
 
 .section-news .news .img-text {
-  width: 20%;
-  height: 20%;
+  width: 265px;
+  height: 265px;
   border-radius: 4px;
+  object-fit: cover;
 }
 
 footer {
