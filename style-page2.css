@@ -1,4 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+body {
+  width: 100%;
+  margin: 0;
+  background: #f1f1f1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+button {
+  border: none;
+}
+
+.grey-text {
+  opacity: 0.5;
+}
+
+header {
+  display: flex;
+  padding: 24px 10%;
+}
+
+header h3 {
+  font-family: "Kanit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.section-welcome {
+  display: flex;
+  padding: 64px 10% 64px 10%;
+}
+
 .section-welcome #back-logo {
   width: 24px;
   height: 24px;
+}
+
+.news-fill {
+  padding: 96px 10%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.news-fill .news-page {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.news-fill .news-page .top-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-fill .news-page .top-part .top-left {
+  display: flex;
+  gap: 16px;
+}
+
+.news-fill .news-page .top-part .top-left img {
+  width: 64px;
+  height: 64px;
+}
+
+.news-fill .news-page .top-part .top-left .text-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.news-fill .news-page .top-part .top-left .text-info .authors-name {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.news-fill .news-page .top-part .top-left .text-info .text-info-grey {
+  display: flex;
+  gap: 4px;
+}
+
+.news-fill .news-page .top-part .top-left .text-info .text-info-grey h5 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.news-fill .news-page .top-part .top-right {
+  display: flex;
+  gap: 20px;
+  padding: 3px;
+}
+
+.news-fill .news-page .top-part .top-right .social-media {
+  width: 18px;
+  height: 18px;
+}
+
+.news-fill .news-page .top-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.news-fill .news-page .top-text .title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 38px;
+}
+
+.news-fill .news-page .top-text .summary {
+  font-family: "SF Pro Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.news-fill .news-page .page-image {
+  border-radius: 4px;
+}
+
+.news-fill .news-page .main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.news-fill .news-page .main .subheader {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.news-fill .news-page .main .main-text {
+  font-family: "SF Pro Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.news-fill .news-page .bottom-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-fill .news-page .bottom-part .likes-comments {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.news-fill .news-page .bottom-part .likes-comments img {
+  width: 24px;
+  height: 24px;
+}
+
+.news-fill .news-page .bottom-part .likes-comments .likes-number,
+.news-fill .news-page .bottom-part .likes-comments .comment-number {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.news-fill .news-page .bottom-part .bookmark {
+  width: 18px;
+  height: 18px;
+  padding: 3px;
+}
+
+footer {
+  padding: 0 10% 32px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 32px;
+}
+
+footer h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #081e34;
+  padding: 10px 12px;
+}
+
+a:link {
+  color: #081e34;
+}
+
+a:visited {
+  color: #081e34;
+}
+
+a:hover {
+  color: #081e34;
+}
+
+a:active {
+  color: #081e34;
 }
