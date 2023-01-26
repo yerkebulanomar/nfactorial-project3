@@ -73,6 +73,7 @@ header h3 {
 .news-fill .news-page .top-part .top-left img {
   width: 64px;
   height: 64px;
+  border-radius: 50%;
 }
 
 .news-fill .news-page .top-part .top-left .text-info {

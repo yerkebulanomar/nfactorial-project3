@@ -55,7 +55,6 @@ header h3 {
   padding: 0 10%;
   display: flex;
   flex-direction: column;
-  gap: 45px;
 }
 
 .section-news .news {
