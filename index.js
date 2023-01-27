@@ -121,3 +121,6 @@ articlesFromAPI.forEach((item) => {
 
   articles.innerHTML += newArticle;
 });
+
+// соеденить все страницы через ссылки
+// просмотреть видео fetch api, newyork api

@@ -1,4 +1,4 @@
-const contentSecondPage2 = [
+const content = [
   {
     id: 2,
     avatarImg: "/assets/Aytekin Tank.jpeg",
@@ -37,7 +37,7 @@ const contentSecondPage2 = [
   },
 ];
 
-const articlePageTwo = `<div class="news-page">
+const code = `<div class="news-page">
   <div class="top-part">
     <div class="top-left">
       <img id="imgAva" src="" alt="avatar" />
@@ -84,10 +84,10 @@ const articlePageTwo = `<div class="news-page">
   </div>
   </div>`;
 
-const pageTwoArticle2 = document.getElementById("pageTwoArticle2");
+const article = document.getElementById("article");
 
-contentSecondPage2.forEach((item) => {
-  let newArticle = articlePageTwo.replace(
+content.forEach((item) => {
+  let newArticle = code.replace(
     `id="imgAva" src="`,
     `id="imgAva" src="${item.avatarImg}"`
   );
@@ -132,5 +132,5 @@ contentSecondPage2.forEach((item) => {
     `id="comment" class="comment-number grey-text">${item.comments}`
   );
 
-  pageTwoArticle2.innerHTML += newArticle;
+  article.innerHTML += newArticle;
 });
