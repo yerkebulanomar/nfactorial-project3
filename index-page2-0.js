@@ -12,11 +12,10 @@ const content = [
     subheader:
       "12 books that will help you meet the goals that matter for 2023",
     text: `One of my favorite quotes — enough that I have it inscribed on the wall across the back of my bookstore — comes from the novelist Walter Mosley. “I’m not saying that you have to be a reader to save your soul in the modern world,” he said. “I’m saying it helps.”
-  
-          2023 stands before us promising nothing but the same difficulties and opportunities that last year and every year before it promised. Maybe even new and worse ones. What are you going to do about it? Will you be ready for it? Can you handle it?
-          
-          Books are an investment in yourself — investments that come in many forms: novels, nonfiction, how-to, poetry, classics, biographies. They help you think more clearly, be kinder, see the bigger picture, and improve at the things that matter to you. Books are a tradition that stretches back thousands of years and stretches forward to today, where people are still publishing distillations of countless hours of hard thinking on hard topics. Why wouldn’t you avail yourself of this wisdom?
-          
+            2023 stands before us promising nothing but the same difficulties and opportunities that last year and every year before it promised. Maybe even new and worse ones. What are you going to do about it? Will you be ready for it? Can you handle it?<br>
+          <br>
+          Books are an investment in yourself — investments that come in many forms: novels, nonfiction, how-to, poetry, classics, biographies. They help you think more clearly, be kinder, see the bigger picture, and improve at the things that matter to you. Books are a tradition that stretches back thousands of years and stretches forward to today, where people are still publishing distillations of countless hours of hard thinking on hard topics. Why wouldn’t you avail yourself of this wisdom?<br>
+          <br>
           With that in mind, here are 12 books — some new, some old — that will help you meet the goals that matter for 2023, that will help you live better and be better.`,
     likes: 230,
     comments: 34,

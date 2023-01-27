@@ -21,7 +21,7 @@ const content = [
           
           For someone who can’t take an entire week off of work once a year to do nothing, I recommend taking a slightly different approach — embracing the digital sabbath.
           
-          On either Saturday or Sunday, force yourself to step away from all forms of technology — a practice known as a digital sabbath.
+          On either Saturday or Sunday, force yourself to step away from all forms of technology — a practice known as a digital sabbath.<br><br>
           
           Shut off your smartphone and hide it in your closet. Powerdown the laptop and slide it under your bed. And, try with all your might to refrain from binge-watching Netflix.
           
@@ -31,7 +31,15 @@ const content = [
           
           While we tell ourselves we can achieve more by scrambling, sometimes it’s better to close our eyes and just float.
           
-          And, wait, until the wildebeest shows up`,
+          And, wait, until the wildebeest shows up.<br> <br>
+          When I was first building JotForm, I was a lot like the young crocodile — believing that I always had to be doing something to get results.
+
+Back then, if someone would have told me that I would see greater results by spending more time doing nothing, I would have rolled my eyes and continued to chip away at my 16 hour day of work.
+
+I thought that in order to be successful, I had to constantly be building, working, growing and developing the next thing — whatever that “thing” was.
+
+All of us have a problem with busyness. But being busy and being successful are not one in the same. And, I think if we were to make “doing nothing” more of a priority, we might find ourselves catching more wildebeests versus measly catfish.
+          `,
     likes: 234,
     comments: 123,
   },

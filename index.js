@@ -11,6 +11,7 @@ const articlesFromAPI = [
     button: "Stoicism",
     readingTime: "9 min read",
     articleImg: "/assets/books article.jpg",
+    href: "/page2-0.html",
   },
   {
     id: 1,
@@ -24,6 +25,7 @@ const articlesFromAPI = [
     button: "IT",
     readingTime: "29 min read",
     articleImg: "/assets/programming.jpeg",
+    href: "/page2-1.html",
   },
   {
     id: 2,
@@ -37,6 +39,7 @@ const articlesFromAPI = [
     button: "Business",
     readingTime: "7 min read",
     articleImg: "/assets/do nothing.jpeg",
+    href: "/page2-2.html",
   },
 ];
 
@@ -51,7 +54,7 @@ const article = `<div class="news">
     <h5 id="date" class="grey-text"></h5>
   </div>
   <div class="text">
-    <h2 id="article-name"></h2>
+    <a href=""><h2 id="article-name"></h2></a>
     <p id="article-summary"></p>
   </div>
   <div class="info-bottom">
@@ -76,7 +79,7 @@ const article = `<div class="news">
     </div>
   </div>
 </div>
-<img id="articleImg" src="" class="img-text" alt="laptop" />
+<a href=""><img id="articleImg" src="" class="img-text" alt="laptop" /></a>
 </div>`;
 
 const articles = document.getElementById("articles");
@@ -118,9 +121,9 @@ articlesFromAPI.forEach((item) => {
     `id="articleImg" src=""`,
     `id="articleImg" src="${item.articleImg}"`
   );
+  newArticle = newArticle.replace(`href=""`, `href="${item.href}"`);
+
+  newArticle = newArticle.replace(`href=""><img`, `href="${item.href}"><img`);
 
   articles.innerHTML += newArticle;
 });
-
-// соеденить все страницы через ссылки
-// просмотреть видео fetch api, newyork api
