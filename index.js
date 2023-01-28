@@ -108,7 +108,7 @@ const article = `<div class="news">
     <h5 id="published_date" class="grey-text"></h5>
   </div>
   <div class="text">
-    <button id="article-name"><h2></h2></button>
+    <h2 id="article-name"></h2>
     <p id="article-abstract"></p>
   </div>
   <div class="info-bottom">
@@ -164,8 +164,8 @@ const loadData = async () => {
         )}`
       );
       newArticle = newArticle.replace(
-        `id="article-name"><h2>`,
-        `id="article-name"><h2>${item.title}`
+        `id="article-name">`,
+        `id="article-name">${item.title}`
       );
       newArticle = newArticle.replace(
         `id="article-abstract">`,
@@ -189,8 +189,8 @@ const loadData = async () => {
 
 loadData();
 
-// const clickedArticle = document.querySelector("#article-name");
+const clickedArticle = document.querySelector(".text");
 
-// clickedArticle.addEventListener("click", function () {
-//   openInNewTab("http://www.test.com");
-// });
+clickedArticle.addEventListener("click", function () {
+  openInNewTab("http://www.test.com");
+});

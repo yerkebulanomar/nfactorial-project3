@@ -102,13 +102,7 @@ header h3 {
   padding-right: 4%;
 }
 
-.section-news .news .left .text #article-name {
-  display: flex;
-  text-align: left;
-  padding: 0;
-}
-
-.section-news .news .left .text #article-name h2 {
+.section-news .news .left .text h2 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
