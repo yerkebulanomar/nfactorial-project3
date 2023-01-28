@@ -90,9 +90,9 @@
 //     `id="textImage" src=""`,
 //     `id="textImage" src="${item.textImage}"`
 //   );
-//   newArticle = newArticle.replace(`url=""`, `url="${item.url}"`);
+//   newArticle = newArticle.replace(`href=""`, `url="${item.url}"`);
 
-//   newArticle = newArticle.replace(`url=""><img`, `url="${item.url}"><img`);
+//   newArticle = newArticle.replace(`href=""><img`, `url="${item.url}"><img`);
 
 //   articles.innerHTML += newArticle;
 // });
@@ -189,8 +189,8 @@ const loadData = async () => {
 
 loadData();
 
-const clickedArticle = document.querySelector(".text");
+// const clickedArticle = document.querySelector(".text");
 
-clickedArticle.addEventListener("click", function () {
-  openInNewTab("http://www.test.com");
-});
+// clickedArticle.addEventListener("click", function () {
+//   openInNewTab("http://www.test.com");
+// });
