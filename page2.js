@@ -22,55 +22,6 @@
 //   },
 // ];
 
-// content.forEach((item) => {
-//   let newArticle = code.replace(
-//     `id="imgAva" src="`,
-//     `id="imgAva" src="${item.avatarImg}"`
-//   );
-//   newArticle = newArticle.replace(
-//     `id="author" class="authors-name">`,
-//     `id="author" class="authors-name">${item.authorName}`
-//   );
-//   newArticle = newArticle.replace(
-//     `id="date" class="grey-text date">`,
-//     `id="date" class="grey-text date">${item.date}`
-//   );
-//   newArticle = newArticle.replace(
-//     `id="readingTime" class="grey-text time-spent">`,
-//     `id="readingTime" class="grey-text time-spent">${item.readingTime}`
-//   );
-//   newArticle = newArticle.replace(
-//     `id="title" class="title">`,
-//     `id="title" class="title">${item.title}`
-//   );
-//   newArticle = newArticle.replace(
-//     `id="summary" class="summary">`,
-//     `id="summary" class="summary">${item.summary}`
-//   );
-//   newArticle = newArticle.replace(
-//     `id="imagePage" src=""`,
-//     `id="imagePage" src="${item.articleImg}"`
-//   );
-//   newArticle = newArticle.replace(
-//     `id="subheader" class="subheader">`,
-//     `id="subheader" class="subheader">${item.subheader}`
-//   );
-//   newArticle = newArticle.replace(
-//     `id="mainText" class="main-text">`,
-//     `id="mainText" class="main-text">${item.text}`
-//   );
-//   newArticle = newArticle.replace(
-//     `id="likes" class="likes-number grey-text">`,
-//     `id="likes" class="likes-number grey-text">${item.likes}`
-//   );
-//   newArticle = newArticle.replace(
-//     `id="comment" class="comment-number grey-text">`,
-//     `id="comment" class="comment-number grey-text">${item.comments}`
-//   );
-
-//   article.innerHTML += newArticle;
-// });
-
 const code = `<div class="news-page">
 <div class="top-part">
   <div class="top-left">
@@ -122,6 +73,55 @@ const code = `<div class="news-page">
   <img class="bookmark" src="/assets/Bookmark.png" alt="bookmark" />
 </div>
 </div>`;
+
+// content.forEach((item) => {
+//   let newArticle = code.replace(
+//     `id="imgAva" src="`,
+//     `id="imgAva" src="${item.avatarImg}"`
+//   );
+//   newArticle = newArticle.replace(
+//     `id="author" class="authors-name">`,
+//     `id="author" class="authors-name">${item.authorName}`
+//   );
+//   newArticle = newArticle.replace(
+//     `id="date" class="grey-text date">`,
+//     `id="date" class="grey-text date">${item.date}`
+//   );
+//   newArticle = newArticle.replace(
+//     `id="readingTime" class="grey-text time-spent">`,
+//     `id="readingTime" class="grey-text time-spent">${item.readingTime}`
+//   );
+//   newArticle = newArticle.replace(
+//     `id="title" class="title">`,
+//     `id="title" class="title">${item.title}`
+//   );
+//   newArticle = newArticle.replace(
+//     `id="summary" class="summary">`,
+//     `id="summary" class="summary">${item.summary}`
+//   );
+//   newArticle = newArticle.replace(
+//     `id="imagePage" src=""`,
+//     `id="imagePage" src="${item.articleImg}"`
+//   );
+//   newArticle = newArticle.replace(
+//     `id="subheader" class="subheader">`,
+//     `id="subheader" class="subheader">${item.subheader}`
+//   );
+//   newArticle = newArticle.replace(
+//     `id="mainText" class="main-text">`,
+//     `id="mainText" class="main-text">${item.text}`
+//   );
+//   newArticle = newArticle.replace(
+//     `id="likes" class="likes-number grey-text">`,
+//     `id="likes" class="likes-number grey-text">${item.likes}`
+//   );
+//   newArticle = newArticle.replace(
+//     `id="comment" class="comment-number grey-text">`,
+//     `id="comment" class="comment-number grey-text">${item.comments}`
+//   );
+
+//   article.innerHTML += newArticle;
+// });
 
 const article = document.getElementById("article");
 

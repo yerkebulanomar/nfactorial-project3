@@ -97,7 +97,11 @@
 //   articles.innerHTML += newArticle;
 // });
 
-const article = `<div class="news">
+let isSectionNews = true;
+
+const articlesFormApi = [];
+
+const article = `<a id=""><div class="news">
 <div class="left">
   <div class="top">
     <img id="avatar" src="/assets/author.jpg" class="img-ava" alt="avatar1" />
@@ -134,7 +138,7 @@ const article = `<div class="news">
   </div>
 </div>
 <img id="textImage" src="" class="img-text" alt="image"/>
-</div>`;
+</div></a>`;
 
 const articles = document.getElementById("articles");
 
@@ -146,7 +150,7 @@ const loadData = async () => {
     console.log(res.ok);
     const data = await res.json();
     console.log(data.results.splice(0, 5));
-    data.results.splice(0, 5).forEach((item) => {
+    data.results.splice(0, 5).forEach((item, index) => {
       let newArticle = article.replace(
         `id="authors-name">`,
         `id="authors-name">${item.byline}`
@@ -163,6 +167,7 @@ const loadData = async () => {
           10
         )}`
       );
+      newArticle = newArticle.replace(`<a id="`, `<a id="${index}`);
       newArticle = newArticle.replace(
         `id="article-name">`,
         `id="article-name">${item.title}`
@@ -189,8 +194,18 @@ const loadData = async () => {
 
 loadData();
 
-// const clickedArticle = document.querySelector(".text");
+// let id = 0;
+// id.addEventListener("click", () => {
 
-// clickedArticle.addEventListener("click", function () {
-//   openInNewTab("http://www.test.com");
 // });
+
+// function changeContent() {
+//   const sectionNews = document.getElementsByClassName("section-news");
+//   if (isSectionNews) {
+//     sectionNews.innerHTML(articles);
+//   } else {
+//     sectionNews.innerHTML(post);
+//   }
+// }
+
+// changeContent();
